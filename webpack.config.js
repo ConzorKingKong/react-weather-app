@@ -1,5 +1,5 @@
 const path = require('path')
-const babel = require('babel')
+const babel = require('babel-core')
 
 module.exports = {
   entry: [
