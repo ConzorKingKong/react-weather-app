@@ -1,16 +1,18 @@
 const path = require('path')
-const babel = require('babel-core')
 
 module.exports = {
   entry: [
-    path.join(__dirname, "src", "index.js")
+    './src/index.js'
   ],
   output: {
     path: path.join(__dirname, "public"),
+    publicPath: '/public',
     filename: 'bundle.js'
   },
   module: {
     loaders: [{
+      test: /\.js$/,
+      exclude: /node_modules/,
       loader: 'babel',
       query: {
         presets: ['react', 'es2015', 'stage-1']
