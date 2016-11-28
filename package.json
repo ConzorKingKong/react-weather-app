@@ -31,6 +31,7 @@
     "webpack-hot-middleware": "^2.10.0"
   },
   "dependencies": {
+    "babel-core": "^6.2.1",
     "axios": "^0.15.2",
     "babel-preset-stage-1": "^6.1.18",
     "express": "^4.14.0",
