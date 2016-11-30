@@ -1,7 +1,7 @@
 import React from 'react'
 import GoogleMap from 'google-map-react'
 
-const GOOGLE_API_KEY = 'AIzaSyBGVw2VHwPREeQ-eWdWNsZlhSWur5GN6KY' 
+const GOOGLE_API_KEY = 'AIzaSyA-lkF4xeNb7fY_pQTsFIApa6l0f-TZMQs' 
 
 export default (props) => {
   return (
